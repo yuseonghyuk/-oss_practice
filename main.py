@@ -1,3 +1,10 @@
+def add(a, b):
+    return a + b
+def sub(a, b):
+    return a - b
+def mul(a, b):
+    return a * b
+
 print("A:")
 A = int(input())
 
@@ -8,8 +15,8 @@ print("op:")
 op = input()
 
 if op == "+":
-    print(A + B)
+    print(add(A, B))
 elif op == "-":
-    print(A - B)
+    print(sub(A,B))
 elif op == "*":
-    print(A * B)
+    print(mul(A, B))
